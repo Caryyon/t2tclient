@@ -13,6 +13,7 @@ use tui::Terminal;
 use crate::app::ui;
 
 pub mod app;
+pub mod inputs;
 
 #[allow(unreachable_code)]
 pub fn start_ui(app: Rc<RefCell<App>>) -> Result<()> {

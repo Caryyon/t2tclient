@@ -1,7 +1,7 @@
 use tui::backend::Backend;
-use tui::layout::{Alignment, Constraint, Direction, Layout, Rect};
-use tui::style::{Color, Style};
-use tui::widgets::{Block, BorderType, Borders, Paragraph};
+use tui::layout::{ Constraint, Direction, Layout, Rect};
+//use tui::style::{Color, Style};
+use tui::widgets::{Block,  Borders};
 use tui::Frame;
 
 use crate::app::App;
